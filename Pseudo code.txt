@@ -1,0 +1,27 @@
+1. Start
+2. Print "Hi there! What is your name?"
+3. Read user input into 'name'
+4. Print "Hey [name], Welcome! Will you be willing to answer a few questions? (Yes/No)"
+5. Read user input into 'response'
+6. while response is "Yes":
+7.     Print "Good! So let's start with your phone number:"
+8.     Read user input into 'phone'
+9.     Print "And your email address?"
+10.    Read user input into 'email'
+11.    Print "Great! So your phone number is [phone] and your email is [email]. Would you like to continue? (Yes/No)"
+12.    Read user input into 'answer'
+13.    while answer is "Yes":
+14.        Print "Great! Now can you tell me how you would rate this conversation?"
+15.        Read user input into 'rate'
+16.        Print "Summary"
+17.        Print "name: [name]"
+18.        Print "phone: [phone]"
+19.        Print "email: [email]"
+20.        Print "rate: [rate]"
+21.        Print "Goodbye!"
+22.        Set answer to "No"  // End inner loop
+23.    End inner loop
+24.    Print "Hey [name], Welcome! Will you be willing to answer a few questions? (Yes/No)"
+25.    Read user input into 'response'  // Prompt to continue outer loop
+26. End outer loop
+27. End
